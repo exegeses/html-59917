@@ -44,6 +44,33 @@ main{
         margin: auto;
     }
 
+    section{
+        height: 400px;
+        background-color: #323232;
+
+        display: flex;
+        /* alinear en horizontal */
+        /* justify-content: start; /* predeterminado */
+        /* justify-content: end; /* del lado derecho */
+        /* justify-content: center;  */
+        justify-content: space-between; 
+
+        /* alinear en vertical */
+        /* align-items: start; /* predeterminado */
+        /* align-items: end; /* debajo */
+        align-items: center;
+    }
+
+    #logo{
+        background-color: rgb(254, 195, 124);
+        width: 80px;
+        height: 32px;
+    }
+    section nav{
+        background-color: rgb(236, 168, 86);
+        width: 80px;
+        height: 32px;
+    }
 
 /* footer */
 footer{
