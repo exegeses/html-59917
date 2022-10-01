@@ -63,3 +63,101 @@ header{
     #hero-banner div p{
         width: 400px;
     }
+
+/* main */
+main{
+    width: 1100px;
+    margin: auto;
+}
+
+/* separador hiking */
+    #hiking{
+        height: 320px;
+        /*display: flex;
+        flex-wrap: wrap;
+        /* align-items: center; */
+        /*justify-content: center;*/
+        padding-top: 98px;
+    }
+        #hiking h2{
+            width: 100%;
+            font-size: 32px;
+            font-weight: 600;
+            color: #FFB968;
+            text-align: center;
+        }
+        #hiking p{
+            text-align: center;
+            width: 600px;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+/* promos */
+
+    #promos{
+        display: flex;
+        flex-wrap: wrap; /* respeta los anchos de las cajas */
+    }
+
+        #promo-1, #promo-2{
+            padding: 100px 80px 0px 80px;
+            color: #fff;
+            width: 550px;
+            height: 550px;
+        }
+
+        #promo-1{
+            background-color: #807871;
+        }
+        #promo-2{
+            background-color: #E3B684;
+        }
+    #promos h2{
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    #promos p{
+        margin-top: 32px;
+    } 
+
+/* separador aventura */
+    #aventura{
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        #aventura h2{
+            font-weight: 600;
+            font-size: 32px;
+            color: #FFB968;
+        }
+
+/*  historia  */
+#historia{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+    
+    #historia article{
+        width: 339px;
+        background-color: #807871;
+    }
+    #historia img{
+        width: 339px;
+        height: 301px;
+    }
+    #historia h2{
+        margin: 18px 36px 12px 36px;
+    }
+    #historia p{
+        margin: 0px 36px 24px 36px;
+    }
+
+
+footer{
+    height: 300px;
+}
